@@ -1,6 +1,6 @@
-const { randomChar } = require("./generate-log");
+const { randomRow } = require("./generate-log");
 
-console.log(randomChar());
+console.log(randomRow());
 
 let fs = require("fs"),
   readline = require("readline");
